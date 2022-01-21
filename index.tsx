@@ -10,9 +10,9 @@ interface AppState {
 
 function App() {
   const [name, setName] = useState('Reddy')
-  const change=(name)=> {
-    setName(name)
-  }
+  // const change=(name)=> {
+  //   setName(name)
+  // }
   return(
     <div>
       <Hello name={setName} />
